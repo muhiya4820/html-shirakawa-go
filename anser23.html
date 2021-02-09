@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>表のCSS指定</title>
+    <style>
+
+     table{
+       border-collapse: separate;
+     }
+     th,td{
+       border: solid 2px #000000;
+       width: 100px;
+       height: 30px;
+       padding: 5px;
+     }
+     th{
+       background-color: #66cc;
+
+     }
+     td{
+       text-align: right;
+       font-style: italic;
+       text-decoration: underline;
+     }
+     h1{
+       background-color:  #0099ff;
+       box-shadow: 5px 5px 10px #99ccff;
+     }
+
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1>商品情報</h1>
+    <h2>内容量と価格の一覧</h2>
+    <table>
+
+      <tr><th></th><th>平日</th><th>土曜</th>
+      <tr><th>通常サイズ</th><td>500g</td><td>480円</td>
+      <tr><th>大サイズ</th><td>800g</td><td>720円</td>
+      <tr><th>特大サイズ</th><td>1200g</td><td>1000円</td>
+
+    </table>
+  </body>
+
+</html>
